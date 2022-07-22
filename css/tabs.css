@@ -7,11 +7,15 @@
 .tabs {
     margin-top: 100px;
 }
+
 .container {
     max-width: 1170px;
     margin: auto;
-    border: 1px #C6CBCD solid;
     position: relative;
+}
+
+.container__tabs {
+    border: 1px #C6CBCD solid;
 }
 
 .tabs__left-sidebar {
