@@ -79,6 +79,7 @@
     color: white;
     background-color: #EC7979;
     border: none;
+    text-transform: capitalize;
 }
 
 .tabs__right-sidebar {
