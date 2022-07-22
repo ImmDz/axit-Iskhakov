@@ -76,7 +76,7 @@
     background-repeat: no-repeat;
 }
 
-h2 {
+.awesome__item-title {
     margin-bottom: 28px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
