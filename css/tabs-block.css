@@ -11,11 +11,11 @@
 .container {
     max-width: 1170px;
     margin: auto;
-    position: relative;
 }
 
 .container__tabs {
     border: 1px #C6CBCD solid;
+    position: relative;
 }
 
 .tabs__left-sidebar {

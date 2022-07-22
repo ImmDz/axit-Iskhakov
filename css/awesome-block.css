@@ -9,12 +9,10 @@
     margin-top: 50px;
 }
 
-.container {
-    padding: 0 15px;
-    max-width: 1170px;
+.container__awesome {
     align-items: center;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+
 }
 
 .awesome__title {
@@ -23,6 +21,7 @@
     font-size: 36px;
     line-height: 42px;
     text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
 }
 
 .awesome__line {
@@ -46,7 +45,7 @@
 
 }
 
-.image{
+.image {
     width: 92px;
     height: 92px;
     margin: auto;
@@ -83,8 +82,9 @@
     text-transform: capitalize;
 }
 
-.container_item-text {
+.awesome__item-text {
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 16.44px;
 }
