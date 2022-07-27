@@ -26,30 +26,38 @@
     padding-left: 100px;
 }
 
-.tabs__nav {
+.tabs__list {
     position: absolute;
     top: -41px;
     left: -1px;
     min-width: 614.06px;
 }
 
-.tabs__nav__tab:nth-child(1) {
+.tabs__list-item:nth-child(1) {
     border: 1px solid #C6CBCD;
     border-bottom-color: white;
 
 }
 
-.tabs__nav__tab {
+.tabs__list-item {
     display: inline-block;
-    padding: 10px 82px;
     font-size: 14px;
     text-transform: uppercase;
     cursor: pointer;
 }
 
-.tabs__nav__tab:hover {
+.tabs__list-button:hover {
     background-color: #EC7979;
     transition: .6s;
+}
+
+.tabs__list-button {
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 11.7px 82px;
+    cursor: pointer;
 }
 
 .tabs__title {
