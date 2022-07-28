@@ -3,6 +3,19 @@
     margin-top: 50px;
 }
 
+.pricing__title {
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.pricing__description {
+    margin-top: 55px;
+    color: #86878B;
+}
+
 .cards {
     display: flex;
     justify-content: space-between;
@@ -19,20 +32,6 @@
 .cards__item--basic{
     margin-top: -25px;
 }
-/* .card__title {
-    background-color: #333333;
-}
-
-.card__price {
-    background-color: #333333;
-    margin-top: 5px;
-}
-
-.card__description {
-    background-color: #333333;
-    margin-top: 5px;
-} */
-
 
 .cards__item--margin {
     margin-top: 2px;
@@ -40,6 +39,7 @@
     padding: 15px 0;
     color: white;
 }
+
 .card__price {
     font-size: 36px;
 }
