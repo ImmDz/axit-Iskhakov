@@ -24,7 +24,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.awesome__line {
+.line {
     border-bottom: 1px solid red;
     width: 170px;
     margin: auto;

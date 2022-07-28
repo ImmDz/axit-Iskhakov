@@ -1,0 +1,31 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+}
+
+.cards__item {
+    background-color: white;
+    text-align: center;
+    padding: 0 60px;
+}
+
+/* .card__title {
+    background-color: #333333;
+}
+
+.card__price {
+    background-color: #333333;
+    margin-top: 5px;
+}
+
+.card__description {
+    background-color: #333333;
+    margin-top: 5px;
+} */
+
+.card-color {
+    background-color: #333333;
+    margin-top: 1px;
+    color: white;
+}
