@@ -1,15 +1,24 @@
+.pricing {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .cards {
     display: flex;
-    justify-content: space-around;
-    background-color: green;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    margin-top: 75px;
 }
 
 .cards__item {
     background-color: white;
     text-align: center;
-    padding: 0 60px;
+    min-width: 370px;
 }
 
+.cards__item--basic{
+    margin-top: -25px;
+}
 /* .card__title {
     background-color: #333333;
 }
@@ -24,8 +33,26 @@
     margin-top: 5px;
 } */
 
-.card-color {
+
+.cards__item--margin {
+    margin-top: 2px;
     background-color: #333333;
-    margin-top: 1px;
+    padding: 15px 0;
     color: white;
 }
+.card__price {
+    font-size: 36px;
+}
+
+.card__list {
+    color: #CACACC;
+}
+
+.card__list--basic {
+    box-shadow:  0 5px 15px 0 rgba(0, 0, 0, 0.3); ;
+}
+
+.card__list-item {
+    padding: 10px 0;
+}
+

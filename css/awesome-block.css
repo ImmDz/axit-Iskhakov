@@ -16,7 +16,7 @@
 }
 
 .awesome__title {
-    margin: 40px 0;
+    margin-top: 40px;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
@@ -28,16 +28,17 @@
     border-bottom: 1px solid red;
     width: 170px;
     margin: auto;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .awesome__about {
-    margin-bottom: 110px;
+    margin-top: 55px;
     color: #86878B;
 }
 
 .awesome__list {
     display: flex;
+    margin-top: 55px;
 }
 
 .awesome__item:not(:last-child) {
